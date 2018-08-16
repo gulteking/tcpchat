@@ -69,7 +69,6 @@ public class TcpChatClient implements Runnable {
         started = false;
     }
 
-    @Override
     public void run() {
         try {
             socket = new Socket(remoteAddress, remotePort);

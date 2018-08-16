@@ -74,7 +74,6 @@ public class TcpChatServer implements Runnable {
         started = false;
     }
 
-    @Override
     public void run() {
         try {
             serverSocket = new ServerSocket(port);
