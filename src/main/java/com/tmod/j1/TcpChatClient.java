@@ -61,7 +61,7 @@ public class TcpChatClient implements Runnable {
                 System.err.println("unable to send file. Exception : " + ex + ". Message: " + ex.getMessage());
             }
         } else {
-            System.err.println("not started");
+            System.err.println("not start");
         }
     }
 
